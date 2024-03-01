@@ -24,7 +24,7 @@ if serv == "1" or serv == "Account Opening":
     import random
     acctnm = (random.randrange(1100000000,9080999019))
     print(f"We are pleased to inform you that your account has been successfully created. \nYour account number is:{acctnm} \nAccount Name:{Surname} {Name}")
-    print("Congratulations")
+    print("Congratulations!!")
 
 elif serv == "2" or serv == "Transfer":
     print("TRANSFER")
